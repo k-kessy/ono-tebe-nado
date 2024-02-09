@@ -5,19 +5,10 @@
 }
 
 .header { 
-
-    /* применяем флекс для того, чтобы меню, лого и контакты встали в одну строчку */
-
-    display: flex; 
-
-    /* центрируем элементы в шапке относительно друг друга */
-
-    align-items: center; 
+    display: flex; /* применяем флекс для того, чтобы меню, лого и контакты встали в одну строчку */
+    align-items: center;  /* центрируем элементы в шапке относительно друг друга */
     width: 100%;
-
-    /* назначаем внутренние отступы */
-
-    padding: 92px 24px 96px 24px;
+    padding: 92px 24px 96px 24px; /* назначаем внутренние отступы */
 }
 
 .header__menu {
@@ -31,24 +22,15 @@
 }
 
 .header__links-list-item {
-
-    /* добавляем буллет, размер ссылок и отступы */
-
-    list-style: circle; 
+    list-style: circle; /* добавляем буллет, размер ссылок и отступы */
     font-size: 18px;
     font-weight: 400;
     margin-right: 9.5px;
-
-    /* смещаем подчеркивание на 4px вниз */
-
-    text-underline-offset: 4px; 
+    text-underline-offset: 4px;  /* смещаем подчеркивание на 4px вниз */
 }
 
 .header__link { 
-
-    /* убираем подчеркивание ссылки (главная) */
-
-    text-decoration: none; 
+    text-decoration: none;  /* убираем подчеркивание ссылки (главная) */
 }
 
 .header__link_active {
@@ -56,10 +38,7 @@
 }
 
 .header__links-list-item_no-bullit {
-
-    /* убираем буллет (главная) */
-
-    list-style: none; 
+    list-style: none;  /* убираем буллет (главная) */
 }
 
 .header__logo {
@@ -75,10 +54,7 @@
 }
 
 .address {
-
-    /* переопределяем стили браузера по умолчанию */
-
-    font-style: normal; 
+    font-style: normal;  /* переопределяем стили браузера по умолчанию */
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -93,10 +69,7 @@
 }
 
 .cover {
-
-    /* размещаем фоновое изображение обложки; контекст позиционирования – относительно своего исходного положения в потоке документа*/
-
-    position: relative;
+    position: relative; /* размещаем фоновое изображение обложки; контекст позиционирования – относительно своего исходного положения в потоке документа*/
     width: 100%;
     height: 757px;
     display: flex;
@@ -191,11 +164,8 @@
 }  
 
 .lots {
-    max-width: 1052px;
-
-    /* центрируем блок */
-
-    margin: 0 auto;
+    max-width: 1052px; 
+    margin: 0 auto; /* центрируем блок */
     padding: 179px 0px 146px 0px;
 }
   
@@ -217,17 +187,8 @@
   
 .lots__card-list {
     display: grid;
-
-    /* указываем позиционирование */
-
-    grid-template-columns: 1fr 1fr 1fr;
-
-    /* расстояние между карточками */
-
-    gap: 25px;
-
-    /* обнуляем стили ul по умолчанию */
-
+    grid-template-columns: 1fr 1fr 1fr;  /* указываем позиционирование */
+    gap: 25px;  /* расстояние между карточками */
     padding: 26px 0px 30px 0px;
     margin: 0;
     text-decoration: none;
@@ -235,14 +196,8 @@
 }
   
 .lots__card-list-item {
-
-    /* создаем контейнер сетки с одним столбцом и одной строкой */
-
-    display: grid;
-
-    /*  столбец и строка будут занимать равное количество доступного места*/
-
-    grid-template-columns: 1fr;
+    display: grid; /* создаем контейнер сетки с одним столбцом и одной строкой */
+    grid-template-columns: 1fr; /*  столбец и строка будут занимать равное количество доступного места*/
     grid-template-rows: 1fr;
 }
   
@@ -286,12 +241,10 @@
     background-image: url(../images/card-lot-03.jpg);
 }
 
-/* присваиваем z-index более высокое значение, чем псевдоэлементу .card::before, чтобы текстовые элементы отображались поверх наложения */
-
 .card__title,
 .card__text {
-    position: relative;
-    z-index: 2;
+    position: relative; 
+    z-index: 2; /* присваиваем z-index более высокое значение, чем псевдоэлементу .card::before, чтобы текстовые элементы отображались поверх наложения */
     color: white;
 }
   
@@ -366,7 +319,7 @@
 }
 
 .footer {
-    display: flex; 
+    display: flex;
     align-items: start; 
     width: 100%;
     box-sizing: border-box;
@@ -419,7 +372,6 @@
 
 .footer__social-list-item {
     list-style: none;
-
 }
 
 .footer__social-link {
