@@ -239,7 +239,6 @@
 .about__logo {
   grid-row:span 1;
   grid-column:span 1;
-  align-items:center;
   background-color:black;
   width:240px;
   height:240px;
