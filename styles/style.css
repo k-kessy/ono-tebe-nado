@@ -71,7 +71,6 @@
 
 .address__upper {
   justify-self:end;
-  font-style:normal;
 }
 
 .cover {
@@ -318,7 +317,6 @@
 
 .address__bottom {
   justify-self:start;
-  font-style:normal;
 }
 
 .footer__menu {
