@@ -41,10 +41,10 @@
 
             <!-- блок с адресом; тегом br разделяем семантически единый блок контента -->
 
-            <address class="address">   
-              <a class="header__address" href="tel:+9-999-555-5555">+9 999 555 5555</a> <br>
-              <a class="header__address" href="mailto:info@sobaka.ge">info@sobaka.ge</a> <br>
-              <p class="header__address">наб. Принсенграхт 263-265, Амстердам</p>
+            <address class="address address__upper">   
+              <a class="address__link" href="tel:+9-999-555-5555">+9 999 555 5555</a> <br>
+              <a class="address__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a> <br>
+              <p>наб. Принсенграхт 263-265, Амстердам</p>
             </address>
       </header>
       <main>
@@ -69,7 +69,7 @@
 
             <div class="cover__description">
               <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
-              <button class="bet-button">Сделать ставку</button>
+              <button class="bet-button" type="button">Сделать ставку</button>
             </div>
           </section>
 
@@ -79,29 +79,35 @@
             <h2 class="lots__heading">Лоты</h2>
             <ul class="lots__card-list">
               <li class="lots__card-list-item">
-                <a class="card-link" href="#0"></a>
+                <a class="card-link" href="#0">
                   <article class="card card_type_film">
+                    <div class="overlay"></div>
                     <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
                     <p class="card__text">Не просто бросил, а ушёл с первой лекции. 
                       Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
                   </article>
+                </a>
               </li>
               <li class="lots__card-list-item">
-                <a class="card-link" href="#0"></a>
+                <a class="card-link" href="#0">
                   <article class="card card_type_book">
+                    <div class="overlay"></div>
                     <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
                     <p class="card__text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. 
                       В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. 
                       И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
                   </article>
+                </a>
               </li>
               <li class="lots__card-list-item">
-                <a  class="card-link" href="#0"></a>
+                <a  class="card-link" href="#0">
                   <article class="card card_type_picture">
+                    <div class="overlay"></div>
                     <h3 class="card__title">Картина, которую повторит даже <br> 5-летний сын маминой подруги</h3>
                     <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на <br> инфузорию-туфельку. 
                       Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
                   </article>
+                </a>
               </li>
             </ul>
             <a class="lots__look-more-link" href="#0">посмотреть больше</a>
@@ -132,10 +138,10 @@
       <!-- подвал -->
 
       <footer class="footer">
-        <address class="footer__address">   
-          <a class="footer__address" href="tel:+9-999-555-5555">+9 999 555 5555</a> <br>
-          <a class="footer__address" href="mailto:info@sobaka.ge">info@sobaka.ge</a> <br>
-          <p class="footer__address">наб. Принсенграхт 263-265, Амстердам</p>
+        <address class="address">   
+          <a class="address__link" href="tel:+9-999-555-5555">+9 999 555 5555</a> <br>
+          <a class="address__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a> <br>
+          <p class="address__link">наб. Принсенграхт 263-265, Амстердам</p>
         </address>
         <nav class="footer__menu">
           <ul class="footer__menu-list">
